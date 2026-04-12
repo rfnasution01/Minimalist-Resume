@@ -1,23 +1,16 @@
-import ProfileImage from "@/assets/img/profiles.jpg";
-
-export type HeroData = {
-	headlines: string[];
-	title: string;
-	description: string;
-	image: string;
-	phone: string;
-};
-
-export const HERO_DATA: HeroData = {
-	headlines: [
-		"Budi Santoso, S.T.",
-		"Mining Engineer",
-		"Mine Planner",
-		"Operations Supervisor",
+export const heroData = {
+	availability: "Available for new opportunities",
+	firstName: "ADITYA",
+	lastName: "PRATAMA",
+	specialization: "Junior Auditor & Financial Analyst",
+	tagline: "Transforming complex data into transparent financial stories.",
+	stats: [
+		{ label: "GPA", value: "3.92" },
+		{ label: "Projects", value: "12+" },
+		{ label: "Certificates", value: "05" },
 	],
-	title: "Driving Safe, Efficient, and Sustainable Mining Operations.",
-	description: `I specialize in optimizing open-pit layouts, managing fleet 
-productivity, and ensuring rigorous safety standards to maximize mineral recovery.`,
-	image: ProfileImage,
-	phone: "6281234567890",
+	cta: {
+		primary: "Download Resume",
+		secondary: "Let's Talk",
+	},
 };

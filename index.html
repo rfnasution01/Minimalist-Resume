@@ -1,12 +1,58 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="icon" type="image/svg+xml" href="/logo.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Portofolio</title>
+
+		<!-- Premium SEO & Job Seeking Meta -->
+		<title>Portfolio — [Your Name] | Business & Management Professional</title>
+		<meta
+			name="description"
+			content="Professional portfolio and resume of a high-achieving graduate specializing in [Field]. Clean, minimalist, and result-oriented."
+		/>
+
+		<!-- Open Graph (Lebih Professional) -->
+		<meta property="og:site_name" content="Professional Portfolio Series" />
+		<meta property="og:title" content="Executive Portfolio — [Your Name]" />
+		<meta
+			property="og:description"
+			content="Focused on delivering value through strategic management and financial excellence."
+		/>
+		<meta name="twitter:card" content="summary_large_image" />
+
+		<!-- Fonts: Adding "Instrument Serif" for that 'Editorial' look -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://googleapis.com" rel="stylesheet" />
+
+		<style>
+			/* Smooth Reveal Effect */
+			html {
+				opacity: 0;
+				transition: opacity 0.5s ease-in-out;
+			}
+			html.fonts-loaded {
+				opacity: 1;
+			}
+
+			/* High-End Typography Settings */
+			:root {
+				font-variant-ligatures: common-ligatures;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+		</style>
+		<script>
+			// Memastikan halaman muncul hanya setelah font ter-load (Mencegah Layout Shift)
+			document.fonts.ready.then(() => {
+				document.documentElement.classList.add("fonts-loaded");
+			});
+		</script>
 	</head>
-	<body>
+	<body
+		class="antialiased selection:bg-primary/10 selection:text-primary overflow-x-hidden"
+	>
 		<div id="root"></div>
 		<script type="module" src="/src/main.tsx"></script>
 	</body>

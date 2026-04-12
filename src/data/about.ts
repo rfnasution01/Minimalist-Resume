@@ -1,26 +1,22 @@
-import type { IconType } from "react-icons";
-import { FaHardHat } from "react-icons/fa"; // Mengganti FaUniversity menjadi FaHardHat agar lebih relevan dengan tambang
-
-export type AboutData = {
-	title: string;
-	description: string;
-	education: {
-		degree: string;
-		institution: string;
-		period: string;
-		gpa: string;
-		icon: IconType;
-	};
-};
-
-export const ABOUT_DATA: AboutData = {
+export const aboutData = {
 	title: "About Me",
-	description: `Dedicated Mining Engineer with a passion for optimizing resource extraction and site safety. Experienced in open-pit planning and heavy equipment management, with a strong focus on operational efficiency, environmental compliance, and sustainable mining practices. Always implementing advanced geological modeling to maximize site productivity.`,
-	education: {
-		degree: "B.Eng. Mining Engineering",
-		institution: "National School of Mines",
-		period: "2018 - 2022",
-		gpa: "3.75",
-		icon: FaHardHat,
-	},
+	description:
+		"Lulusan Akuntansi yang tidak hanya terpaku pada angka, tapi juga cerita di baliknya. Saya percaya bahwa integritas adalah mata uang utama dalam dunia profesional.",
+	philosophy: "Accuracy is not just a skill, it's a commitment.",
+	experiences: [
+		{
+			company: "KAP Tanudiredja (PwC Indonesia)",
+			role: "Audit Intern",
+			period: "2023 - 2024",
+			description:
+				"Membantu dalam verifikasi laporan keuangan dan pengujian kepatuhan untuk klien manufaktur.",
+		},
+		{
+			company: "Student Executive Board",
+			role: "Head of Finance",
+			period: "2022 - 2023",
+			description:
+				"Mengelola anggaran tahunan sebesar Rp200jt+ untuk 15 program kerja skala nasional.",
+		},
+	],
 };
