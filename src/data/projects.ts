@@ -1,3 +1,4 @@
+// ================= PROJECTS =================
 import ImgProduct1 from "@/assets/img/produk-1.jpg";
 import ImgProduct2 from "@/assets/img/produk-2.jpg";
 import ImgProduct3 from "@/assets/img/produk-3.jpg";
@@ -6,29 +7,29 @@ import ImgProduct4 from "@/assets/img/produk-4.jpg";
 export const projectsData = {
 	title: "Featured Projects",
 	subtitle:
-		"A collection of my academic research and professional case studies.",
+		"A curated selection of projects focused on performance, design, and usability.",
 	projects: [
 		{
-			title: "Corporate Audit Framework",
-			category: "Audit / Research",
+			title: "SaaS Landing Page",
+			category: "Web Development",
 			image: ImgProduct1,
-			size: "large", // Untuk bento grid
+			size: "large",
 		},
 		{
-			title: "Tax Analysis 2023",
-			category: "Taxation",
+			title: "E-Commerce UI",
+			category: "UI/UX Design",
 			image: ImgProduct2,
 			size: "small",
 		},
 		{
-			title: "Financial Dashboard",
-			category: "Data Viz",
+			title: "Portfolio Website",
+			category: "Personal Branding",
 			image: ImgProduct3,
 			size: "small",
 		},
 		{
-			title: "NGO Budgeting Plan",
-			category: "Finance",
+			title: "Startup Dashboard",
+			category: "Web App",
 			image: ImgProduct4,
 			size: "medium",
 		},

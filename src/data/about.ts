@@ -1,22 +1,23 @@
 export const aboutData = {
 	title: "About Me",
 	description:
-		"Lulusan Akuntansi yang tidak hanya terpaku pada angka, tapi juga cerita di baliknya. Saya percaya bahwa integritas adalah mata uang utama dalam dunia profesional.",
-	philosophy: "Accuracy is not just a skill, it's a commitment.",
+		"A detail-oriented frontend developer who blends aesthetics with functionality. I focus on building scalable, maintainable, and high-performance web applications that deliver real business value.",
+	philosophy:
+		"Great design is invisible — it works effortlessly and feels intuitive.",
 	experiences: [
 		{
-			company: "KAP Tanudiredja (PwC Indonesia)",
-			role: "Audit Intern",
-			period: "2023 - 2024",
+			company: "PixelCraft Studio",
+			role: "Frontend Developer",
+			period: "2022 - Present",
 			description:
-				"Membantu dalam verifikasi laporan keuangan dan pengujian kepatuhan untuk klien manufaktur.",
+				"Developed responsive web applications using React and Tailwind CSS, improving client conversion rates by up to 35%.",
 		},
 		{
-			company: "Student Executive Board",
-			role: "Head of Finance",
-			period: "2022 - 2023",
+			company: "Freelance",
+			role: "Web Developer",
+			period: "2021 - 2022",
 			description:
-				"Mengelola anggaran tahunan sebesar Rp200jt+ untuk 15 program kerja skala nasional.",
+				"Delivered custom landing pages and portfolio websites for clients across various industries.",
 		},
 	],
 };

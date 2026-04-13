@@ -1,19 +1,20 @@
+// ================= SKILLS =================
 export const skillsData = {
 	title: "Expertise",
 	marqueeSkills: [
-		"Financial Auditing",
-		"Tax Compliance",
-		"Data Analysis",
-		"Corporate Finance",
-		"Internal Control",
-		"Risk Management",
-		"Public Speaking",
-		"Strategic Planning",
+		"Frontend Development",
+		"UI/UX Design",
+		"Responsive Design",
+		"Web Performance",
+		"SEO Optimization",
+		"API Integration",
+		"Component Architecture",
+		"Design Systems",
 	],
 	tools: [
-		{ name: "SAP S/4HANA", level: "Intermediate", icon: "📊" },
-		{ name: "Microsoft Excel", level: "Expert", icon: "📈" },
-		{ name: "Tableau", level: "Beginner", icon: "🖼️" },
-		{ name: "Zahir Accounting", level: "Advanced", icon: "📑" },
+		{ name: "React.js", level: "Advanced", icon: "⚛️" },
+		{ name: "Next.js", level: "Advanced", icon: "▲" },
+		{ name: "Tailwind CSS", level: "Expert", icon: "🎨" },
+		{ name: "Figma", level: "Intermediate", icon: "🖌️" },
 	],
 };

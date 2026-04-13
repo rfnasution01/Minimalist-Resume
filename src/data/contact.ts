@@ -1,10 +1,12 @@
+// ================= CONTACT =================
 export const contactData = {
-	footerNote: "Let's build something great together.",
-	email: "hello@adityapratama.com",
+	footerNote: "Let’s collaborate and build impactful digital products.",
+	email: "rafael.santos.dev@gmail.com",
+	phone: "6281234567890",
 	socials: [
-		{ name: "LinkedIn", link: "https://linkedin.com" },
-		{ name: "GitHub", link: "https://github.com" },
-		{ name: "Instagram", link: "https://instagram.com" },
+		{ name: "LinkedIn", link: "https://linkedin.com/in/rafaelsantos" },
+		{ name: "GitHub", link: "https://github.com/rafaelsantos" },
+		{ name: "Instagram", link: "https://instagram.com/rafaelcodes" },
 	],
-	cvLink: "/cv-aditya.pdf",
+	cvLink: "/CV.pdf",
 };

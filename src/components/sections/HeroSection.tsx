@@ -100,13 +100,28 @@ export const HeroSection = () => {
 							variants={itemVariants}
 							className="flex flex-col sm:flex-row gap-5"
 						>
-							<button className="btn-primary group">
+							{/* PRIMARY → DOWNLOAD CV */}
+							<a
+								href="/CV.pdf"
+								download
+								className="btn-primary group inline-flex items-center justify-center"
+							>
 								{cta.primary}
 								<span className="ml-2 group-hover:translate-x-1 transition-transform">
 									→
 								</span>
+							</a>
+
+							{/* SECONDARY → SMOOTH SCROLL */}
+							<button
+								onClick={() => {
+									const el = document.getElementById("contact");
+									el?.scrollIntoView({ behavior: "smooth" });
+								}}
+								className="btn-secondary"
+							>
+								{cta.secondary}
 							</button>
-							<button className="btn-secondary">{cta.secondary}</button>
 						</motion.div>
 					</motion.div>
 

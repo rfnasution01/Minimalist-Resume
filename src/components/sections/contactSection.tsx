@@ -5,7 +5,7 @@ export const ContactSection = () => {
 	const { footerNote, email, socials, cvLink } = contactData;
 
 	return (
-		<section className="py-24 px-6 bg-foreground text-background">
+		<section id="contact" className="py-24 px-6 bg-foreground text-background">
 			<div className="container max-w-6xl mx-auto">
 				<div className="flex flex-col items-center text-center">
 					{/* Big Statement */}
